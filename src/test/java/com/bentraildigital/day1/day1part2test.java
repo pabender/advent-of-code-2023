@@ -61,7 +61,7 @@ public class day1part2test {
         lineList = Files.readAllLines(Path.of(dataFileName));
         day1Part2 e = new day1Part2();
         e.printLinesSum(lineList);
-        assertThat(e.getLinesSum(lineList)).isEqualTo(55123);
+        assertThat(e.getLinesSum(lineList)).isEqualTo(55260);
     }
 
 }
